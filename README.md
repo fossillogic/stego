@@ -98,7 +98,7 @@ Ensure you have the following installed before starting:
 | `inspect` | Deep inspection of system components. | `--cpu`<br>`--core <id>`<br>`--process <pid>`<br>`--thread`<br>`--memory-region`<br>`--device <name>` |
 | `trace` | Trace system calls or kernel activity. | `--pid <id>`<br>`--syscalls`<br>`--signals`<br>`--io`<br>`--time`<br>`--summary` |
 | `audit` | Run diagnostics and detect misconfigurations. | `--security`<br>`--permissions`<br>`--services`<br>`--startup`<br>`--integrity`<br>`--report <file>` |
-| `watchsys` | Monitor system events in real-time. | `--events <list>`<br>`--interval <n>`<br>`--threshold <value>`<br>`--alert` |
+| `watch` | Monitor system events in real-time. | `--events <list>`<br>`--interval <n>`<br>`--threshold <value>`<br>`--alert` |
 | `thermals` | Monitor temperatures and cooling systems. | `--cpu`<br>`--gpu`<br>`--fan`<br>`--interval <n>`<br>`--alert <temp>` |
 | `pressure` | Measure system pressure (CPU, memory, IO contention). | `--cpu`<br>`--memory`<br>`--io`<br>`--duration <n>`<br>`--graph` |
 | `uptime` | Show uptime and load averages. | `--since`<br>`--load`<br>`--pretty` |
@@ -108,7 +108,7 @@ Ensure you have the following installed before starting:
 | `services` | Manage and inspect system services. | `--list`<br>`--status <name>`<br>`--start`<br>`--stop`<br>`--restart`<br>`--logs` |
 | `logs` | Query and filter system logs. | `--since <time>`<br>`--until <time>`<br>`--level <type>`<br>`--follow`<br>`--grep <pattern>` |
 | `snapshot` | Capture full system state. | `--name <label>`<br>`--diff <other>`<br>`--compress`<br>`--include <component>` |
-| `diffsys` | Compare system states. | `--cpu`<br>`--memory`<br>`--disk`<br>`--services`<br>`--json` |
+| `diff` | Compare system states. | `--cpu`<br>`--memory`<br>`--disk`<br>`--services`<br>`--json` |
 | `forecast` | Predict system resource trends. | `--cpu`<br>`--memory`<br>`--disk`<br>`--window <time>`<br>`--model <type>` |
 | `analyze` | AI-assisted diagnostics and insights. | `--bottleneck`<br>`--anomaly`<br>`--optimize`<br>`--summary` |
 | `secure` | Inspect system security posture. | `--firewall`<br>`--users`<br>`--permissions`<br>`--open-ports`<br>`--vuln` |
